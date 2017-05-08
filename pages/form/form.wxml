@@ -1,0 +1,103 @@
+<!--pages/form/form.wxml-->
+<view class="header">
+  <view class="h1-form-header">“I think it is very important to have a feedback loop, where you are constantly thinking about what you have done and how you could be doing it better.”</view>
+</view>
+
+<view class="container form">
+  <form bindsubmit="bindFormSubmit">
+   <view class="h2-form">About the workshop:</view>
+    <view class="user-input">
+      <view class="input-label">a. Generally how was this workshop?</view>
+      <text class="label-details">Hints: takeaway, speed, time, location, people...</text>
+      <view class="text-area-wrp">
+        <textarea style="height: 10em" name="overview" maxlength="-1" />
+      </view>
+     </view>
+    
+    
+    
+    <view class="user-input">
+      <view class="input-label">b. Would you recommend this workshop to a friend?</view>
+      <view class="text-area-wrp">
+        <textarea style="height: 10em" name="recommendation" maxlength="-1" />
+    </view>
+   </view>
+
+   <view class="margin-h2">
+    <view class="h2-form">About you now:</view>
+   </view>
+
+   <view class="user-input">
+      <view class="input-label">a. Why do you want to learn to code?</view>
+      <text class="label-details">Hints: Build your own product, find a tech job...</text>
+      <view class="text-area-wrp">
+        <textarea style="height: 10em" name="learntocode" maxlength="-1" />
+    </view>
+   </view>
+
+   <view class="user-input">
+      <view class="input-label">b. Where did you hear about Le Wagon?</view>
+      <checkbox-group name="hearAbout" class="checkbox-margin">
+        <view class="checkbox">
+          <checkbox value="crew"/>From the crew
+        </view>
+        <view class="checkbox">
+          <checkbox value="student"/>From a student
+        </view>
+        <view class="checkbox">
+          <checkbox value="wom"/>Word of mouth
+        </view>
+        <view class="checkbox">
+          <checkbox value="meetup"/>Meetup
+        </view>
+        <view class="checkbox">
+          <checkbox value="wechat"/>Wechat
+        </view>
+        <view class="checkbox">
+          <checkbox value="google"/>Google
+        </view>
+        <view class="checkbox">
+          <checkbox value="other"/>Other
+        </view>
+      </checkbox-group>      
+   </view>
+
+   <view class="user-input">
+      <view class="input-label">c. Are you interested in a 2-month bootcamp to learn coding?</view>
+      <text class="label-details">To upgrade your skills  and build your own product.</text>
+  <checkbox-group name="interestedIn" class="checkbox-margin">   
+     <view class="checkbox checkbox-margin">
+          <checkbox value="yes"/>Yes
+     </view>
+     <view class="checkbox">
+          <checkbox value="no"/>No
+     </view>
+    </checkbox-group> 
+   </view>
+
+    <view class="user-input">
+      <view class="input-label">d. Your contact details:</view>
+      <view class="text-area-wrp">
+        <textarea placeholder="name" value="{{userInfo.nickName}}" name="nickName" auto-height />
+      </view>
+      <view class="text-area-wrp">
+        <textarea auto-focus="true" placeholder="email@email.com" name="email" auto-height />
+      </view>
+      <view class="text-area-wrp">
+        <textarea placeholder="+86 185******" name="phone" auto-height />
+      </view>
+      <view class="text-area-wrp">
+        <textarea placeholder="Project/Company name" name="company" auto-height />
+      </view>              
+    </view>
+           
+    <view class="btn-area">
+      <button type="primary" form-type="submit" loading="{{loading}}">Send</button>
+    </view>
+
+  
+
+  </form>
+</view>
+
+

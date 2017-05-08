@@ -1,0 +1,31 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 20px;
+  box-sizing: border-box;
+} 
+
+/* lib */
+.h1 {
+  font-weight: 800;
+  font-size: 40rpx; 
+}
+.h3 {
+  margin-top: 35rpx;
+}
+.desc {
+  margin-top: 35rpx;
+  color: #888888;
+  font-size: 30rpx;
+}
+.em {
+  font-style: italic;
+  color:#D03232;
+}
+.center-item {
+  text-align: center;
+}

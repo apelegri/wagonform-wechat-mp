@@ -1,0 +1,38 @@
+/**index.wxss**/
+.index-core {
+  text-align: center;
+  padding: 50rpx 50rpx 0rpx 50rpx;
+}
+.index-logo {
+  width: 86rpx;
+  height: 86rpx;
+}
+.index-wrap {
+  border-top:1px solid lightgray;
+  padding:10px 0px;
+  margin:10px 15px;
+}
+
+/**btn**/
+
+.cta {
+  margin-top: 20px;
+}
+.cta-label {
+  margin-top: 20rpx;
+  color: #888888;
+  font-size: 22rpx;
+  text-align: center;
+  padding:0px 30px;
+}
+
+.btn-index {
+  background-color: #D03232;
+  color:white;
+  padding: 30rpx;
+  border-radius: 3px;
+  font-size: 35rpx;
+  width: 500rpx;
+  text-align: center;
+  font-weight:bolder;
+}
