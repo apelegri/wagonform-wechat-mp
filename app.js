@@ -1,4 +1,13 @@
 //app.js
+// import Leancloud.cn library to store objects on the cloud
+const AV = require('./utils/av-weapp-min.js');
+
+//  initialization of the application: leancloud
+AV.init({ 
+ appId: 't6hUVJfOwjHuWXuD9OE06r7r-gzGzoHsz', 
+ appKey: 'HndT17mJ7wAIxsv8uQ97h3DT', 
+});
+
 App({
   getUserInfo:function(cb){
     var that = this

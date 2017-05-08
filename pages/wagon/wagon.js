@@ -9,7 +9,7 @@ data: {
     console.log(option)
 
     // display toast if form success
-    if(option.brief == 1){
+    if(option.form == 1){
       wx.showToast({
       title: 'Received. Thanks!',
       icon: 'success',

@@ -10,7 +10,7 @@
       <view class="input-label">a. Generally how was this workshop?</view>
       <text class="label-details">Hints: takeaway, speed, time, location, people...</text>
       <view class="text-area-wrp">
-        <textarea style="height: 10em" name="overview" maxlength="-1" />
+        <textarea style="height: 10em" name="review" maxlength="-1" auto-focus="true" />
       </view>
      </view>
     
@@ -81,7 +81,7 @@
         <textarea placeholder="name" value="{{userInfo.nickName}}" name="nickName" auto-height />
       </view>
       <view class="text-area-wrp">
-        <textarea auto-focus="true" placeholder="email@email.com" name="email" auto-height />
+        <textarea placeholder="email@email.com" name="email" auto-height />
       </view>
       <view class="text-area-wrp">
         <textarea placeholder="+86 185******" name="phone" auto-height />
