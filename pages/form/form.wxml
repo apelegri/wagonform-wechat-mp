@@ -1,6 +1,6 @@
 <!--pages/form/form.wxml-->
 <view class="header">
-  <view class="h1-form-header">“I think it is very important to have a feedback loop, where you are constantly thinking about what you have done and how you could be doing it better.”</view>
+  <view class="h1-form-header">"We count great programers, entrepreneurs and mostly creative persons among our team. However at the end the most important for us is your voice.”</view>
 </view>
 
 <view class="container form">
@@ -19,7 +19,7 @@
     <view class="user-input">
       <view class="input-label">b. Would you recommend this workshop to a friend?</view>
       <view class="text-area-wrp">
-        <textarea style="height: 10em" name="recommendation" maxlength="-1" />
+        <slider min="0" max="10" name='recommendation'show-value/>
     </view>
    </view>
 

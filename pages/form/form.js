@@ -20,7 +20,6 @@ Page({
       })
     })
   },
-
   // Form Submission
   bindFormSubmit: function(e) {
     // LOADING

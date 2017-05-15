@@ -20,6 +20,7 @@
 }
 .input-label {
   margin-bottom: 5rpx;
+  font-size: 33rpx;
 }
 .label-details {
   color: #888888;
