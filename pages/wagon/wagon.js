@@ -1,6 +1,6 @@
 Page({
 data: {
-    logs: []
+    logs: [],
   },
   // load data and log success
   onLoad: function (option) {
@@ -16,5 +16,12 @@ data: {
       duration: 3000
       });
     } 
-  }
+  },
+  onShareAppMessage: function () {
+    console.log('share works')
+    wx.showShareMenu({
+      withShareTicket: true
+    })
+  },
+
 })

@@ -23,9 +23,12 @@
   font-size: 30rpx;
 }
 .em {
-  font-style: italic;
+  color:#D03232;
+}
+.em-header {
   color:#D03232;
 }
 .center-item {
   text-align: center;
+  padding-left:60px;
 }

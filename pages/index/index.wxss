@@ -7,23 +7,27 @@
   width: 86rpx;
   height: 86rpx;
 }
-.index-wrap {
-  border-top:1px solid lightgray;
-  padding:10px 0px;
-  margin:10px 15px;
+.wrap {
+  padding:6px 5px;
+  margin: 15px;
 }
-
+.margin {
+  margin-bottom: 10px;
+}
+.desc {
+  margin-top: 35rpx;
+  color: #888888;
+  font-size: 30rpx;
+  padding-top:15px;
+}
 /**btn**/
 
-.cta {
-  margin-top: 20px;
-}
 .cta-label {
   margin-top: 20rpx;
   color: #888888;
   font-size: 22rpx;
   text-align: center;
-  padding:0px 30px;
+  padding:10px 30px;
 }
 
 .btn-index {
@@ -32,7 +36,48 @@
   padding: 30rpx;
   border-radius: 3px;
   font-size: 35rpx;
-  width: 500rpx;
+  width: 520rpx;
   text-align: center;
   font-weight:bolder;
+}
+.cta {
+  margin-top: 18px;
+}
+.wagon-wrap {
+  padding:10px 20px;
+  margin:0px 10px;
+  text-align: center;
+  line-height: 16px;
+}
+.index-header {
+  text-align: center;
+  padding: 0rpx 50rpx 0rpx 50rpx;
+  background-size: cover;
+  height:300px;
+  display:flex;
+  align-items: center;
+}
+.h1-form-header {
+  color: white;
+  text-align: center;
+  font-weight:800;
+  font-size:35rpx;
+}
+.header {
+  text-align: center;
+  background-size: cover;
+  height: 300px;
+  display:flex;
+  align-items: center;
+  background-image: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url('http://ac-t6hUVJfO.clouddn.com/8a57845ffecd1a60be5c.png');
+  background-position: center;
+}
+
+.h1-header {
+  align-content: center;
+  color:white;
+  text-align:center;
+  font-size:35rpx; 
+  font-weight:800;
+  padding: 30px;
 }

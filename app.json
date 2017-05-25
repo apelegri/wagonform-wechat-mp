@@ -9,12 +9,11 @@
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "Le Wagon",
     "backgroundColor": "#eeeeee",
-    "backgroundTextStyle": "light",
-    "enablePullDownRefresh": "true"
+    "backgroundTextStyle": "light"
   },
   "tabBar": {
-    "backgroundColor": "white",
-    "borderStyle": "black",
+    "backgroundColor": "#FFFFFE",
+    "borderStyle": "#D3D3D3",
     "selectedColor": "#D03232",
     "color": "#131313",
     "list": [{

@@ -1,61 +1,51 @@
 <!--pages/wagon/wagon.wxml-->
-<view class="index">
-  <view class="wagon-header">
-    <view class="h1">1300+ talented students sharing the same skills & passion.</view>
+<view class="header">
+  <view class="h1-form-header">
+   Le Wagon will teach you in two months what you would have learned in two years.
   </view>
+</view>
+ 
+<view class="center-item-logo">
+  <image class="wagon-img" src="/image/white_logo_red_font.png"></image>
 </view>
 
 <view class="wagon-wrap">
-  <view class="center-item">
-    <image class="wagon-img" src="/image/white_logo_red_font.png"></image>
+  <view class="h3-about">More than a coding bootcamp.</view>
+  <view class="desc">Le Wagon supports their students in their path to <text class="em">climb the technical wall</text> you were so afraid of when you first enrolled.
   </view>
-  <view class="desc">Le Wagon is a coding school founded in 2013 and running in 19 locations worldwide. <text class="em">Our mission is to bring technical skills to creative people.</text></view>
-</view>
-
-<view class="wagon-wrap">
-      <view class="h3">One of the best tech communities in the world.</view>
-      <view class="desc">Le Wagon is an intensive, full-time 9-week bootcamp that teaches creative people to code the startup way. Our curriculum is full-stack web development from Back-End (Ruby on Rails) to Front-End (HTML,CSS, JavaScript and various libraries).
-      </view>
-      <view class="desc">All the students of Le Wagon share the same technical background and apply industry best practices. This mix between diversity & technical expertise makes our community unique.
-      </view>
-</view>
-
-<view class="wagon-wrap">
-      <view class="h3">Become a hiring partner.</view>
-      <view class="desc">Le Wagon's network allows fast-growing companies to hire directly from our alumni. We'll push your offers, organise a casual HR meeting to promote your organisation's culture and vision. 
-      </view>
-</view>
-<view class="desc center-item">Get in touch:</view>
-  <view class="cta">
-    <button class="btn-gray">shanghai@lewagon.org</button>
+  <view class="desc">The team hands over the technical workflow of successful startups, share the developer mindset and get the right startup toolkit.
   </view>
-
-<view class="wagon-wrap quotes">
-<image class="google" src="/image/google.png"></image>
-
-  <view class="quote">“Le Wagon really knows how to bring complementary tech skills and culture to people with a business background. Their vision of technology is unique.”</view>
-  <view class="author">– Marion Grandjean, Business Associate at Google</view>
-</view>
-
-<view class="wagon-wrap quotes">
-<image class="uber" src="/image/uber.png"></image>
-
-  <view class="quote">
-“Le Wagon allows me to understand better Uber's product roadmap, and to be able to explain simply concepts such as API integration to our partners.”</view>
+<view class="wagon-wrap-quote">
+  <image class="uber" src="/image/uber.png"></image>
+  <view class="quote">“Le Wagon allows me to understand better Uber's product roadmap, and to be able to explain simply concepts such as API integration to our partners.”</view>
   <view class="author">– Emeric Henon,   Marketing at Uber</view>
 </view>
 
+  <view class="h3-about-margin"> 
+   <image style="width:30px;height:21px;" src="/image/community-icon.png"></image>
+   Exceptional tech community.
+  </view>
+   <view class="desc">Take part in an exciting community  to share on technical issues, tips and ressources with product managers, developers, designers and more. 
+  </view>
+  <view class="desc">The mix between <text class="em"> background diversity and technical expertise</text> make our community unique.
+  </view>
 
-<view class="wagon-wrap quotes">
-<image class="techcrunch" src="/image/techcrunch.png"></image>
+  <view class="h3-about-margin"> 
+  <image style="width:24px;height:21px;" src="/image/share-icon.png"></image>
+  Spread the word.
+  </view>
 
-<view class="quote">
-Le Wagon "is quietly becoming a major coding Bootcamp"
-</view>
-<view class="author">– TechCrunch, 2016</view>
-
-</view>
-
-<view class="wagon-footer">
+  <view class="desc">Le Wagon is an intensive, full-time 2-month bootcamp that teaches creative people to code. Our curriculum is full-stack web development from Back-End (Ruby on Rails) to Front-End (HTML, CSS, Javascript) and diverse libraries.  
+  </view>
+  <view class="desc">If you need to discuss about your expectations, and whether or not you should attend a coding program, drop us an email: 
+  <view class="em">shanghai@lewagon.org</view> 
+  </view>
   
+  <view class="center-item-logo-footer" bindtap="onShareAppMessage">
+  <button  class="share-btn" open-type="share" type="primary">Share to your friends</button>
+
+  </view>
+ </view>
+
+<view class="wagon-footer">  
 </view>

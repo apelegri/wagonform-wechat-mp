@@ -1,16 +1,11 @@
 //index.js
 var app = getApp()
+
 Page({
   data: {
     form: 'Give us feedback',
-    userInfo: {}
-  },
-  //事件处理函数
-  Tapped: function() {
-    console.log("tapped");
-    wx.navigateTo({
-     url: '../logs/logs'
-    })
+    userInfo: {},
+    source:'',
   },
   onLoad: function () {
     console.log('onLoad')
@@ -20,5 +15,14 @@ Page({
         userInfo:userInfo
       })
     })
-  }
+  },  
+  onShareAppMessage: function () {
+    return {
+      title: 'Forward',
+      path: '/index/index'
+    }
+  },
+  onReady: function (res) {
+    console.log('ready')
+  },
 })

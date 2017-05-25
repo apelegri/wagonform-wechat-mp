@@ -1,15 +1,22 @@
-<view class="index-core">
-  <image class="index-logo" src="/image/red_car_small.png"></image>
-  <view class="h1">Welcome aboard Le Wagon!</view>
-  <view class="index-wrap">
-    <view class="desc"> Le Wagon is an intensive, <text class="em">product-driven coding bootcamp</text>  in China and 19 locations worldwide. Our community was pleased to have you for this technical workshop.</view>
-    <view class="h3">Care to share about your experience?    </view>
-    <view class="desc">Help us prepare the next session by sharing about this workshop...</view>
+<view class="header">
+ <view class="h1-header">Le Wagon "is quietly becoming a major coding Bootcamp"
+ 
+    <view class="author">– TechCrunch, 2016</view>
+  </view>
+</view>
+<view class="wagon-wrap">
+ <view class="desc">Thanks for attending this workshop. We would love to know what you think about it and <text class="em"> learn from you.</text> 
   </view>
 </view>
 <view class="container">
+
   <view class="cta">
     <navigator url="/pages/form/form" class="btn-index">{{form}}</navigator>
   </view>
-    <text class="cta-label">Le Wagon workshops are driven by your feedabck to upgrade the value we provide. </text>
+    <text class="cta-label">Le Wagon workshops are driven by your feedbacks to upgrade the value we provide. </text>
+     
 </view>
+
+
+
+

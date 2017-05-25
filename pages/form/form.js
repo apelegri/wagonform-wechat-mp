@@ -18,6 +18,7 @@ Page({
       that.setData({
         userInfo:userInfo
       })
+      console.log(userInfo)
     })
   },
   // Form Submission
@@ -44,7 +45,6 @@ Page({
     var nickName = e.detail.value.nickName
     var email = e.detail.value.email
     var phone = e.detail.value.phone
-    var company = e.detail.value.company
 
     // LEANCLOUD PERMISSIONS
     var acl = new AV.ACL();
@@ -57,7 +57,6 @@ Page({
           name: nickName,
           email: email,
           phone: phone,
-          company: company,
           review: review,
           recommendation: recommendation,
           learn_to_code: learntocode,
@@ -68,9 +67,7 @@ Page({
     wx.reLaunch({
       url: '/pages/wagon/wagon?form=1'
     });
-    
-    }, 2000);
-    
+   }, 2000);
   }
 })
   
