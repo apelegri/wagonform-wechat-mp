@@ -17,18 +17,26 @@
 .h3 {
   margin-top: 35rpx;
 }
+.h1-header {
+  align-content: center;
+  color: white;
+  text-align: center;
+  font-size: 35rpx; 
+  font-weight: 800;
+  padding: 30px;
+}
 .desc {
   margin-top: 35rpx;
   color: #888888;
   font-size: 30rpx;
 }
 .em {
-  color:#D03232;
+  color: #D03232;
 }
 .em-header {
-  color:#D03232;
+  color: #D03232;
 }
 .center-item {
   text-align: center;
-  padding-left:60px;
+  padding-left: 60px;
 }

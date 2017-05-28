@@ -1,20 +1,17 @@
 <view class="header">
  <view class="h1-header">Le Wagon "is quietly becoming a major coding Bootcamp"
- 
     <view class="author">– TechCrunch, 2016</view>
-  </view>
+ </view>
 </view>
 <view class="wagon-wrap">
  <view class="desc">Thanks for attending this workshop. We would love to know what you think about it and <text class="em"> learn from you.</text> 
-  </view>
+ </view>
 </view>
 <view class="container">
-
-  <view class="cta">
-    <navigator url="/pages/form/form" class="btn-index">{{form}}</navigator>
-  </view>
-    <text class="cta-label">Le Wagon workshops are driven by your feedbacks to upgrade the value we provide. </text>
-     
+ <view class="cta-margin">
+  <navigator url="/pages/form/form" class="btn-index">{{form}}</navigator>
+ </view>
+ <text class="cta-label">Le Wagon workshops are driven by your feedbacks to upgrade the value we provide.</text>     
 </view>
 
 

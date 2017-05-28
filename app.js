@@ -1,5 +1,5 @@
 //app.js
-// import Leancloud.cn library to store objects on the cloud
+// Import Leancloud.cn library to store objects on the cloud
 const AV = require('./utils/av-weapp-min.js');
 
 //  initialization of the application: leancloud
@@ -9,6 +9,7 @@ AV.init({
 });
 
 App({
+  
   getUserInfo:function(cb){
     var that = this
     if(this.globalData.userInfo){
@@ -29,5 +30,8 @@ App({
   },
   globalData:{
     userInfo:null
+  },
+  onHide: function (){
+    wx.clearStorage 
   }
 })

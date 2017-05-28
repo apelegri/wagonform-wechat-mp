@@ -1,51 +1,36 @@
-<!--pages/wagon/wagon.wxml-->
+<!--wagon.wxml-->
 <view class="header">
-  <view class="h1-form-header">
-   Le Wagon will teach you in two months what you would have learned in two years.
-  </view>
+ <view class="h1-header">Le Wagon will teach you in two months what you would have learned in two years.
+ </view>
 </view>
- 
-<view class="center-item-logo">
-  <image class="wagon-img" src="/image/white_logo_red_font.png"></image>
+<view class="center-logo">
+ <image class="wagon-logo" src="/image/white_logo_red_font.png"></image>
 </view>
-
 <view class="wagon-wrap">
-  <view class="h3-about">More than a coding bootcamp.</view>
-  <view class="desc">Le Wagon supports their students in their path to <text class="em">climb the technical wall</text> you were so afraid of when you first enrolled.
-  </view>
-  <view class="desc">The team hands over the technical workflow of successful startups, share the developer mindset and get the right startup toolkit.
-  </view>
-<view class="wagon-wrap-quote">
+ <view class="h3-about">More than a coding bootcamp.</view>
+ <view class="desc-about">Le Wagon supports their students in their path to <text class="em">climb the technical wall</text> they were so afraid of when they first enrolled.</view>
+ <view class="desc-about">The team hands over the technical workflow of successful startups, share the developer mindset and get the right startup toolkit.</view>
+ <view class="wrap-quote">
   <image class="uber" src="/image/uber.png"></image>
   <view class="quote">“Le Wagon allows me to understand better Uber's product roadmap, and to be able to explain simply concepts such as API integration to our partners.”</view>
-  <view class="author">– Emeric Henon,   Marketing at Uber</view>
-</view>
-
-  <view class="h3-about-margin"> 
-   <image style="width:30px;height:21px;" src="/image/community-icon.png"></image>
-   Exceptional tech community.
-  </view>
-   <view class="desc">Take part in an exciting community  to share on technical issues, tips and ressources with product managers, developers, designers and more. 
-  </view>
-  <view class="desc">The mix between <text class="em"> background diversity and technical expertise</text> make our community unique.
-  </view>
-
-  <view class="h3-about-margin"> 
-  <image style="width:24px;height:21px;" src="/image/share-icon.png"></image>
-  Spread the word.
-  </view>
-
-  <view class="desc">Le Wagon is an intensive, full-time 2-month bootcamp that teaches creative people to code. Our curriculum is full-stack web development from Back-End (Ruby on Rails) to Front-End (HTML, CSS, Javascript) and diverse libraries.  
-  </view>
-  <view class="desc">If you need to discuss about your expectations, and whether or not you should attend a coding program, drop us an email: 
-  <view class="em">shanghai@lewagon.org</view> 
-  </view>
-  
-  <view class="center-item-logo-footer" bindtap="onShareAppMessage">
-  <button  class="share-btn" open-type="share" type="primary">Share to your friends</button>
-
-  </view>
+  <view class="author">– Emeric Henon, Marketing at Uber</view>
  </view>
-
-<view class="wagon-footer">  
+ <view class="h3-about h3-margin"> 
+  <image class="icon-com" src="/image/community-icon.png"></image>
+  Exceptional tech community.
+ </view>
+ <view class="desc-about">Take part in an exciting community  to share on technical issues, tips and ressources with product managers, developers, designers and more.</view>
+ <view class="desc-about">The mix between <text class="em"> background diversity and technical expertise</text> make our community unique.</view>
+ <view class="h3-about h3-margin"> 
+  <image class="icon-share" src="/image/share-icon.png"></image>
+  Spread the word.
+ </view>
+ <view class="desc-about">Le Wagon is an intensive, full-time 2-month bootcamp that teaches creative people to code. Our curriculum is full-stack web development from Back-End (Ruby on Rails) to Front-End (HTML, CSS, Javascript) and diverse libraries.</view>
+ <view class="desc-about">If you need to discuss about your expectations, and whether or not you should attend a coding program, drop us an email: 
+  <view class="em">shanghai@lewagon.org</view> 
+ </view>
+ <view bindtap="onShareAppMessage">
+  <button class="share-btn" open-type="share" type="primary">Share to your friends</button>
+ </view>
 </view>
+

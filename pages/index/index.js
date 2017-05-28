@@ -1,11 +1,10 @@
 //index.js
 var app = getApp()
-
 Page({
   data: {
     form: 'Give us feedback',
     userInfo: {},
-    source:'',
+    source: '',
   },
   onLoad: function () {
     console.log('onLoad')
@@ -18,8 +17,8 @@ Page({
   },  
   onShareAppMessage: function () {
     return {
-      title: 'Forward',
-      path: '/index/index'
+      title: 'Le Wagon coding school',
+      path: 'pages/index/index'
     }
   },
   onReady: function (res) {

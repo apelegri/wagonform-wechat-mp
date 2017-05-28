@@ -1,68 +1,5 @@
 /**index.wxss**/
-.index-core {
-  text-align: center;
-  padding: 50rpx 50rpx 0rpx 50rpx;
-}
-.index-logo {
-  width: 86rpx;
-  height: 86rpx;
-}
-.wrap {
-  padding:6px 5px;
-  margin: 15px;
-}
-.margin {
-  margin-bottom: 10px;
-}
-.desc {
-  margin-top: 35rpx;
-  color: #888888;
-  font-size: 30rpx;
-  padding-top:15px;
-}
-/**btn**/
-
-.cta-label {
-  margin-top: 20rpx;
-  color: #888888;
-  font-size: 22rpx;
-  text-align: center;
-  padding:10px 30px;
-}
-
-.btn-index {
-  background-color: #D03232;
-  color:white;
-  padding: 30rpx;
-  border-radius: 3px;
-  font-size: 35rpx;
-  width: 520rpx;
-  text-align: center;
-  font-weight:bolder;
-}
-.cta {
-  margin-top: 18px;
-}
-.wagon-wrap {
-  padding:10px 20px;
-  margin:0px 10px;
-  text-align: center;
-  line-height: 16px;
-}
-.index-header {
-  text-align: center;
-  padding: 0rpx 50rpx 0rpx 50rpx;
-  background-size: cover;
-  height:300px;
-  display:flex;
-  align-items: center;
-}
-.h1-form-header {
-  color: white;
-  text-align: center;
-  font-weight:800;
-  font-size:35rpx;
-}
+/* Header */
 .header {
   text-align: center;
   background-size: cover;
@@ -73,11 +10,43 @@
   background-position: center;
 }
 
-.h1-header {
-  align-content: center;
-  color:white;
-  text-align:center;
-  font-size:35rpx; 
-  font-weight:800;
-  padding: 30px;
+/* Body style */
+.wagon-wrap {
+  padding: 10px 20px;
+  margin: 0px 10px;
+  text-align: center;
+  line-height: 16px;
 }
+.desc {
+  margin-top: 35rpx;
+  color: #888888;
+  font-size: 30rpx;
+  padding-top:15px;
+}
+
+/* Btn */
+.btn-index {
+  background-color: #D03232;
+  color: white;
+  padding: 30rpx;
+  border-radius: 3px;
+  font-size: 35rpx;
+  width: 520rpx;
+  text-align: center;
+  font-weight:bolder;
+}
+.cta-label {
+  margin-top: 20rpx;
+  color: #888888;
+  font-size: 22rpx;
+  text-align: center;
+  padding:10px 30px;
+}
+.cta-margin {
+  margin-top: 18px;
+}
+
+
+
+
+

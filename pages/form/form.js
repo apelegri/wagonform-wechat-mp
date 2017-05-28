@@ -1,6 +1,5 @@
-// pages/form/form.js
-
-// to store objects on the cloud, import Leancloud.cn library 
+//form.js
+// Require leancloud library and object 
 const AV = require('../../utils/av-weapp-min.js');
 const Form = require('../../model/form.js');
 
@@ -10,7 +9,7 @@ Page({
     userInfo: {},
     loading: false,
   },
-  // Retrieve user data
+  // Retrieve user info
   onLoad: function () {
     console.log('form page loaded')
     var that = this
@@ -23,36 +22,31 @@ Page({
   },
   // Form Submission
   bindFormSubmit: function(e) {
-    // LOADING
     // 1. enable the loading animation on send button
     this.setData({
       loading: !this.data.loading
     })
-
     // 2. show a Loading toast
     wx.showToast({
       title: 'Sending...',
       icon: 'loading',
       duration: 1500
     })
-    // Local Storage
+    // Local storage
     console.log(e)
     var review = e.detail.value.review
     var recommendation = e.detail.value.recommendation
     var learntocode = e.detail.value.learntocode
     var hearAbout = e.detail.value.hearAbout
-
     var nickName = e.detail.value.nickName
     var email = e.detail.value.email
     var phone = e.detail.value.phone
-
-    // LEANCLOUD PERMISSIONS
+    // Leancloud permissions
     var acl = new AV.ACL();
     acl.setPublicReadAccess(true);
     acl.setPublicWriteAccess(true);
-
     setTimeout(function(){
-    // LEANCLOUD STORAGE
+    // Save data to leancloud object
     new Form({
           name: nickName,
           email: email,
@@ -63,7 +57,7 @@ Page({
           hear_about: hearAbout
         }).setACL(acl).save().catch(console.error);
     
-    // REDIRECT USER
+    // Redirect user if form submitted
     wx.reLaunch({
       url: '/pages/wagon/wagon?form=1'
     });

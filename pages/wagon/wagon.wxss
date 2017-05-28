@@ -1,117 +1,5 @@
-/* pages/wagon/wagon.wxss */
-
-/* Body style */
-
-.wagon-wrap {
-  padding:10px 10px;
-  margin:0px 10px;
-  text-align: left;
-}
-.wagon-wrap-quote {
-  text-align:center;
-  margin-top:10px;
-}
-.desc {
-  margin-top: 35rpx;
-  color: #888888;
-  font-size: 30rpx;
-  line-height: 18px;
-}
-.wagon-footer {
-  height:50px;
-}
-
-.h1 {
-  color:white;
-}
-.h1-form-header {
-  color:white;
-  text-align:center;
-  font-size:37rpx; 
-  font-weight:800;
-  padding: 10px 10px;
-}
-.h3-about {
-  font-weight:bold;
-  font-size: 40rpx; 
-}
-.h3-about-margin {
-  font-weight:bold;
-  font-size: 40rpx; 
-  margin-top: 25px;
-}
-
-.wagon-img {
-  width:200px;
-  height:90px;
-  text-align: center;
-  margin-top:15px;
-}
-.format-qr {
- width:220px;
- height:220px;
- text-align:center;
-}
-
-.cta {
-  margin-top: 20px;
-}
-
-.cta-details {
-  margin-top: 20rpx;
-  color: #888888;
-  font-size: 22rpx;
-  text-align: center;
-  padding:0px 30px;
-}
-
-.quotes {
-  text-align: center;
-  margin-top:20px;
-}
-.author {
-  font-size: 12px;
-  text-align:center;
-  padding-top:7px;
-
-}
-.quote {
-  color: #888888;
-  font-style:italic;
-  font-size:25rpx;
-  line-height:17px;
-  text-align: center;
-  padding-top: 5px;
-}
-.center-item-logo {
-  text-align: center;
-  padding-top: 10px;
-}
-.center-qr {
-  text-align: center;
-}
-.center-item-logo-footer {
-  text-align: center;
-  padding-top: 20px;
-}
-.desc-footer {
-  color: #888888;
-  font-size: 35rpx;
-}
-.uber {
-  width:100px;
-  height:22px;
-  margin-top:18px;
-  margin-bottom:2px;
-}
-.author {
-  font-weight: 900;
-  font-size: 25rpx;
-}
-
-/* Header style */
-
-
+/**wagon.wxss**/
+/* Header */
 .header {
   text-align: center;
   background-size: cover;
@@ -122,11 +10,73 @@
   background-position: center;
 }
 
-.h1-header {
-  align-content: center;
-  color:white;
+/* Body style */
+.center-logo {
+  text-align: center;
+  padding-top: 10px;
+}
+.wagon-logo {
+  width: 200px;
+  height: 90px;
+  text-align: center;
+  margin-top: 15px;
+}
+.wagon-wrap {
+  padding: 10px 10px;
+  margin: 0px 10px;
+  text-align: left;
+}
+.h3-about {
+  font-weight: bold;
+  font-size: 40rpx; 
+}
+.h3-margin { 
+  margin-top: 25px;
+}
+.desc-about {
+  margin-top: 35rpx;
+  color: #888888;
+  font-size: 30rpx;
+  line-height: 18px;
+}
+
+/* Quote */
+.wrap-quote {
   text-align:center;
-  font-size:35rpx; 
-  font-weight:800;
-  padding: 30px;
+  margin-top:10px;
+}
+.uber {
+  width: 100px;
+  height: 22px;
+  margin-top: 18px;
+  margin-bottom: 2px;
+}
+.quote {
+  color: #888888;
+  font-style: italic;
+  font-size: 25rpx;
+  line-height:17px;
+  text-align: center;
+  padding-top: 5px;
+}
+.author {
+  font-size: 12px;
+  text-align: center;
+  padding-top: 7px;
+}
+
+/* Icons */
+.icon-com {
+  width: 30px;
+  height: 21px;
+}
+.icon-share {
+  width: 24px;
+  height: 21px;
+}
+
+/* Btn */
+.share-btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
