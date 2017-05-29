@@ -1,0 +1,19 @@
+<!--pages/review/review.wxml-->
+<view class="header">
+ <view class="h1-header"> Reviews list:
+ </view>
+</view>
+
+<view class="wagon-wrap"> 
+ <block wx:for="{{forms}}" wx:for-item="form" wx:key="objectId">
+  <view class="card">
+   <view class="card-description">
+    <text data-id="{{form.objectId}}" >
+     {{form.review}}
+    </text>
+    <view class="card-author"> - {{form.name}}</view>
+   </view>
+  </view>
+ </block>
+</view>
+

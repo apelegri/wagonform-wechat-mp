@@ -11,7 +11,12 @@
  <view class="cta-margin">
   <navigator url="/pages/form/form" class="btn-index">{{form}}</navigator>
  </view>
- <text class="cta-label">Le Wagon workshops are driven by your feedbacks to upgrade the value we provide.</text>     
+ <text class="cta-label">Le Wagon workshops are driven by your feedbacks to upgrade the value we provide.</text> 
+
+<!-- CTA to redirect to reviews page -->
+ <view class="cta-margin">
+  <navigator url="/pages/review/review" class="btn-index">Reviews list</navigator>
+ </view>
 </view>
 
 

@@ -14,6 +14,7 @@ Page({
         userInfo:userInfo
       })
     })
+    console.log('userInfo ok')
   },  
   onShareAppMessage: function () {
     return {
