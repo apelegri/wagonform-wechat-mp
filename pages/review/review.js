@@ -1,4 +1,4 @@
-// pages/reviews/review.js
+// pages/review/review.js
 // Require leancloud library and object 
 const AV = require('../../utils/av-weapp-min.js');
 const Form = require('../../model/form.js');

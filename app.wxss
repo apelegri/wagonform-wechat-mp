@@ -1,11 +1,9 @@
 /**app.wxss**/
 .container {
   height: 100%;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 20rpx 20px;
+  padding: 20rpx 0px;
   box-sizing: border-box;
 } 
 
@@ -35,6 +33,9 @@
 }
 .em-header {
   color: #D03232;
+}
+em-bold {
+  font-weight: bold;
 }
 .center-item {
   text-align: center;

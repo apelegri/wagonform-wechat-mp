@@ -1,19 +1,21 @@
 <!--pages/review/review.wxml-->
 <view class="header">
- <view class="h1-header"> Reviews list:
- </view>
+ <view class="h1-header">Reviews</view>
 </view>
-
-<view class="wagon-wrap"> 
- <block wx:for="{{forms}}" wx:for-item="form" wx:key="objectId">
-  <view class="card">
-   <view class="card-description">
-    <text data-id="{{form.objectId}}" >
-     {{form.review}}
-    </text>
-    <view class="card-author"> - {{form.name}}</view>
+<view class="review-container">
+  <block wx:for="{{forms}}" wx:for-item="form" wx:key="objectId">
+   <view class="card">
+    <view class="card-description">
+     <text data-id="{{form.objectId}}" >
+      <text class="em">Review:</text> {{form.review}}. 
+      <text class="em">Recommendation Grade:</text> {{form.recommendation}} / 10.
+      <text class="em">Heard about Le Wagon:</text> {{form.hear_about}}.
+      <text class="em">Email:</text> {{form.email}}.
+      <text class="em">Want to learn code:</text> {{form.learn_to_code}}.
+     </text> 
+     <view class="card-author"> - {{form.name}}</view>
+    </view>
    </view>
-  </view>
- </block>
-</view>
+  </block>
 
+</view>

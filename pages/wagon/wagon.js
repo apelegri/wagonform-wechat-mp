@@ -9,7 +9,7 @@ Page({
     // Display toast if form success
     if(option.form == 1){
       wx.showToast({
-       title: 'Received. Thanks!',
+       title: 'FML added. Thanks!',
        icon: 'success',
        duration: 3000
       });

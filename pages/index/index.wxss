@@ -1,4 +1,12 @@
 /**index.wxss**/
+.container-flex {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13rpx 8px;
+  box-sizing: border-box;
+} 
 /* Header */
 .header {
   text-align: center;

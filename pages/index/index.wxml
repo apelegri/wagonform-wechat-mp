@@ -6,19 +6,20 @@
 <view class="wagon-wrap">
  <view class="desc">Thanks for attending this workshop. We would love to know what you think about it and <text class="em"> learn from you.</text> 
  </view>
-</view>
-<view class="container">
- <view class="cta-margin">
-  <navigator url="/pages/form/form" class="btn-index">{{form}}</navigator>
+ <view class="container-flex">
+  <view class="cta-margin">
+   <navigator url="/pages/form/form" class="btn-index">{{form}}</navigator>
+
+  <view class="cta-margin">
+   <navigator url="/pages/review/review" class="btn-index">Reviews list</navigator>
+  </view>
  </view>
- <text class="cta-label">Le Wagon workshops are driven by your feedbacks to upgrade the value we provide.</text> 
+
 
 <!-- CTA to redirect to reviews page -->
- <view class="cta-margin">
-  <navigator url="/pages/review/review" class="btn-index">Reviews list</navigator>
- </view>
-</view>
 
+</view>
+</view>
 
 
 

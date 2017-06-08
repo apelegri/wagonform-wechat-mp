@@ -62,7 +62,9 @@ Page({
       url: '/pages/wagon/wagon?form=1'
     });
    }, 2000);
+  console.log(Form)
   }
+
 })
   
 
