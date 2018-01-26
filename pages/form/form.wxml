@@ -78,6 +78,8 @@
     <textarea placeholder="+86 185******" name="phone" class="input-contact" auto-height />
    </view>             
   </view>
+
+  <view class="label-details"> Tip: turn off vpn if unable to send </view>
   <button type="primary" form-type="submit" loading="{{loading}}">Send</button>
  </form>
 </view>
